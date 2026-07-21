@@ -17,7 +17,7 @@ import io.restassured.response.Response;
 		//Request-1
 		 .get("https://jsonplaceholder.typicode.com/posts");
 		  String Cookies =res.jsonPath().getString("[2].id");
-	      hemanth
+	      //ramu
 		  //Request-2
 		  given()
 		  .pathParam("userId", Cookies)
